@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		914959F224C71DF500416B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914959F124C71DF500416B38 /* AppDelegate.swift */; };
+		914959F424C71DF500416B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914959F324C71DF500416B38 /* SceneDelegate.swift */; };
+		914959F624C71DF500416B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914959F524C71DF500416B38 /* ViewController.swift */; };
+		914959F924C71DF500416B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914959F724C71DF500416B38 /* Main.storyboard */; };
+		914959FB24C71DF600416B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914959FA24C71DF600416B38 /* Assets.xcassets */; };
+		914959FE24C71DF600416B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914959FC24C71DF600416B38 /* LaunchScreen.storyboard */; };
+		91495A0724C7234A00416B38 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91495A0524C7234A00416B38 /* TimerViewController.swift */; };
+		91495A0824C7234A00416B38 /* TimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91495A0624C7234A00416B38 /* TimerViewController.xib */; };
+		91495A0A24C9914F00416B38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91495A0924C9914F00416B38 /* GoogleService-Info.plist */; };
+		91495A0C24C9AC7C00416B38 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91495A0B24C9AC7C00416B38 /* UIImage+.swift */; };
+		91495A0E24C9B23200416B38 /* FaceDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91495A0D24C9B23200416B38 /* FaceDetector.swift */; };
+		9968EC267DD0E0C245D0D530 /* Pods_SmileKintai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720D1F05193F91242BEBD5FF /* Pods_SmileKintai.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3638D07EB748FA4326236F77 /* Pods-SmileKintai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileKintai.debug.xcconfig"; path = "Target Support Files/Pods-SmileKintai/Pods-SmileKintai.debug.xcconfig"; sourceTree = "<group>"; };
+		3E71E58AEEE10FF131C9B133 /* Pods-SmileKintai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileKintai.release.xcconfig"; path = "Target Support Files/Pods-SmileKintai/Pods-SmileKintai.release.xcconfig"; sourceTree = "<group>"; };
+		720D1F05193F91242BEBD5FF /* Pods_SmileKintai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmileKintai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		914959EE24C71DF500416B38 /* SmileKintai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileKintai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914959F124C71DF500416B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		914959F324C71DF500416B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		914959F524C71DF500416B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		914959F824C71DF500416B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914959FA24C71DF600416B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914959FD24C71DF600416B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914959FF24C71DF600416B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91495A0524C7234A00416B38 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		91495A0624C7234A00416B38 /* TimerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerViewController.xib; sourceTree = "<group>"; };
+		91495A0924C9914F00416B38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		91495A0B24C9AC7C00416B38 /* UIImage+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+.swift"; path = "../../Day9/FinalProject/SmileChecker/SmileChecker/Extensions/UIImage+.swift"; sourceTree = "<group>"; };
+		91495A0D24C9B23200416B38 /* FaceDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceDetector.swift; path = ../../Day9/FinalProject/SmileChecker/SmileChecker/FaceDetector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914959EB24C71DF500416B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9968EC267DD0E0C245D0D530 /* Pods_SmileKintai.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54BE7B7DD93CFF63BF29BF08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				720D1F05193F91242BEBD5FF /* Pods_SmileKintai.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914959E524C71DF500416B38 = {
+			isa = PBXGroup;
+			children = (
+				914959F024C71DF500416B38 /* SmileKintai */,
+				914959EF24C71DF500416B38 /* Products */,
+				E1AD30B4E994C4B42CF0583B /* Pods */,
+				54BE7B7DD93CFF63BF29BF08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		914959EF24C71DF500416B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914959EE24C71DF500416B38 /* SmileKintai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914959F024C71DF500416B38 /* SmileKintai */ = {
+			isa = PBXGroup;
+			children = (
+				91495A0B24C9AC7C00416B38 /* UIImage+.swift */,
+				914959F124C71DF500416B38 /* AppDelegate.swift */,
+				914959F324C71DF500416B38 /* SceneDelegate.swift */,
+				91495A0924C9914F00416B38 /* GoogleService-Info.plist */,
+				914959F524C71DF500416B38 /* ViewController.swift */,
+				91495A0D24C9B23200416B38 /* FaceDetector.swift */,
+				914959F724C71DF500416B38 /* Main.storyboard */,
+				91495A0524C7234A00416B38 /* TimerViewController.swift */,
+				91495A0624C7234A00416B38 /* TimerViewController.xib */,
+				914959FA24C71DF600416B38 /* Assets.xcassets */,
+				914959FC24C71DF600416B38 /* LaunchScreen.storyboard */,
+				914959FF24C71DF600416B38 /* Info.plist */,
+			);
+			path = SmileKintai;
+			sourceTree = "<group>";
+		};
+		E1AD30B4E994C4B42CF0583B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3638D07EB748FA4326236F77 /* Pods-SmileKintai.debug.xcconfig */,
+				3E71E58AEEE10FF131C9B133 /* Pods-SmileKintai.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914959ED24C71DF500416B38 /* SmileKintai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91495A0224C71DF600416B38 /* Build configuration list for PBXNativeTarget "SmileKintai" */;
+			buildPhases = (
+				F1F7641AE83914EC1ED5D66F /* [CP] Check Pods Manifest.lock */,
+				914959EA24C71DF500416B38 /* Sources */,
+				914959EB24C71DF500416B38 /* Frameworks */,
+				914959EC24C71DF500416B38 /* Resources */,
+				9474CA037F8F9FEF51EB95B1 /* [CP] Embed Pods Frameworks */,
+				1CD4DA58FCB11CAFDEE15243 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileKintai;
+			productName = SmileKintai;
+			productReference = 914959EE24C71DF500416B38 /* SmileKintai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914959E624C71DF500416B38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Miki Arakawa";
+				TargetAttributes = {
+					914959ED24C71DF500416B38 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 914959E924C71DF500416B38 /* Build configuration list for PBXProject "SmileKintai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914959E524C71DF500416B38;
+			productRefGroup = 914959EF24C71DF500416B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914959ED24C71DF500416B38 /* SmileKintai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914959EC24C71DF500416B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91495A0824C7234A00416B38 /* TimerViewController.xib in Resources */,
+				914959FE24C71DF600416B38 /* LaunchScreen.storyboard in Resources */,
+				91495A0A24C9914F00416B38 /* GoogleService-Info.plist in Resources */,
+				914959FB24C71DF600416B38 /* Assets.xcassets in Resources */,
+				914959F924C71DF500416B38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD4DA58FCB11CAFDEE15243 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileKintai/Pods-SmileKintai-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileKintai/Pods-SmileKintai-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmileKintai/Pods-SmileKintai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9474CA037F8F9FEF51EB95B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileKintai/Pods-SmileKintai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileKintai/Pods-SmileKintai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmileKintai/Pods-SmileKintai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F7641AE83914EC1ED5D66F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmileKintai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914959EA24C71DF500416B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91495A0724C7234A00416B38 /* TimerViewController.swift in Sources */,
+				914959F624C71DF500416B38 /* ViewController.swift in Sources */,
+				91495A0C24C9AC7C00416B38 /* UIImage+.swift in Sources */,
+				914959F224C71DF500416B38 /* AppDelegate.swift in Sources */,
+				91495A0E24C9B23200416B38 /* FaceDetector.swift in Sources */,
+				914959F424C71DF500416B38 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		914959F724C71DF500416B38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914959F824C71DF500416B38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		914959FC24C71DF600416B38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914959FD24C71DF600416B38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91495A0024C71DF600416B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91495A0124C71DF600416B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91495A0324C71DF600416B38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3638D07EB748FA4326236F77 /* Pods-SmileKintai.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G78VA4S43X;
+				INFOPLIST_FILE = SmileKintai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miki-Arakawa.SmileKintai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91495A0424C71DF600416B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E71E58AEEE10FF131C9B133 /* Pods-SmileKintai.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G78VA4S43X;
+				INFOPLIST_FILE = SmileKintai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Miki-Arakawa.SmileKintai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914959E924C71DF500416B38 /* Build configuration list for PBXProject "SmileKintai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91495A0024C71DF600416B38 /* Debug */,
+				91495A0124C71DF600416B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91495A0224C71DF600416B38 /* Build configuration list for PBXNativeTarget "SmileKintai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91495A0324C71DF600416B38 /* Debug */,
+				91495A0424C71DF600416B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914959E624C71DF500416B38 /* Project object */;
+}
